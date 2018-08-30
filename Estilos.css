@@ -1,0 +1,5 @@
+auth()
+        .signInWithPopup(provider)
+        .then(function(result) {
+         image.append("<img src='"+result.user.photoURl+"'/>");
+       });
