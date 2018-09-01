@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prueba.</title>
+        <link href="Estilos.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+           <div id="ContenedorPrimario">
+           <div id="contenedor-primario-imagen"></div> 
+           <div id="contenedorPrimario-hijo-uno">
+            <p id="usuario">Usuario</p>  
+            <input type="text"> 
+           </div>
+           <div id="contenedorPrimario-hijo-dos">
+             <p>Contraseña</p> 
+            <input type="text">   
+           </div>
+           <div id="contenedorPrimario-hijo-tres">
+            <input type="button" value="Iniciar" id="iniciar">  
+           </div>
+           </div>
+    </body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script src="app.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDXM0az1dfkMB7N6SN4lSnT_gh5l3z8uDo",
+    authDomain: "proyecto-15481.firebaseapp.com",
+    databaseURL: "https://proyecto-15481.firebaseio.com",
+    projectId: "proyecto-15481",
+    storageBucket: "proyecto-15481.appspot.com",
+    messagingSenderId: "18930251398"
+  };
+  firebase.initializeApp(config);
+</script>
+<style> 
+</style>

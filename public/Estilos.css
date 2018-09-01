@@ -1,0 +1,74 @@
+p{
+font-size:36px;
+}
+#contenedor-primario-imagen{
+background-image: url(img/jeisonlogo.png);
+width: 60%;
+height: 70px;
+background-size: cover;  
+background-position: center;
+background-position: right 20%;
+}
+#ContenedorPrimario{
+height: 400px;
+border-radius: 32px 29px 17px 17px;
+-moz-border-radius: 32px 29px 17px 17px;
+-webkit-border-radius: 32px 29px 17px 17px;
+border: 2px solid #9194b8;
+top: 50%;
+left: 40%;
+height: 500px;
+margin-top: 100px;
+padding: 24px;
+width: 29%;
+background-color: white;
+}
+#contenedorPrimario-hijo-uno{
+width: 45%;
+height::;48%;
+float: left;
+}
+#contenedorPrimario-hijo-dos{
+float: left;
+width: 48%;
+height: 35%;
+clear:right;
+right:20px;
+}
+#contenedorPrimario-hijo-tres{
+position: absolute;
+top:60%;
+
+}
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=button] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 15px; 
+    font-size:20px;
+}
+body{
+background-color: white;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 100%;
+min-height: 100vh;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+overflow-x:hidden;
+overflow-y:hidden;
+background-repeat: repeat-x;
+}
+
