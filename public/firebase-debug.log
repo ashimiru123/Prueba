@@ -1,0 +1,20 @@
+[debug] [2018-09-04T04:42:11.112Z] ----------------------------------------------------------------------
+[debug] [2018-09-04T04:42:11.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tetsu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-04T04:42:11.115Z] CLI Version:   4.2.1
+[debug] [2018-09-04T04:42:11.115Z] Platform:      win32
+[debug] [2018-09-04T04:42:11.115Z] Node Version:  v10.9.0
+[debug] [2018-09-04T04:42:11.116Z] Time:          Mon Sep 03 2018 23:42:11 GMT-0500 (GMT-05:00)
+[debug] [2018-09-04T04:42:11.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-04T04:42:11.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-04T04:42:11.129Z] > authorizing via signed-in user
+[debug] [2018-09-04T04:42:11.131Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/proyecto-15481  
+ 
+[debug] [2018-09-04T04:42:11.720Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'proyecto-15481'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-09-04T04:42:11.731Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/proyecto-15481/versions  
+
+[debug] [2018-09-04T04:42:12.749Z] <<< HTTP RESPONSE 200
